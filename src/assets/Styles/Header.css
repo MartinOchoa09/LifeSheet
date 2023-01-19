@@ -1,0 +1,32 @@
+header{
+    height: 25vh ;
+    display: flex;
+    align-content: center;  
+    flex-wrap: wrap;
+    border-bottom: 3px dashed #E02B2B;
+}
+header h1{
+    align-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 1%;
+    padding: 0%;
+    color: #46D016;
+}
+
+header h2{
+
+    font-size: 0.8em;
+    margin: 0%;
+    padding: 0%;
+    color: #525252;
+    
+}
+header img{
+
+    margin: 1%;
+    padding: 0%;
+    border-radius: 75%;
+    width: 125px;
+    height: 125px;
+}

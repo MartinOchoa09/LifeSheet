@@ -1,0 +1,10 @@
+.divmain{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.tercerdiv{
+    
+    display: flex;
+    align-self: flex-end;
+}
