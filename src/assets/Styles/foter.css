@@ -1,0 +1,13 @@
+.divpadre{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Roboto';
+    color: #000000;
+}
+
+.divpadre img{
+    width: 30px;
+}

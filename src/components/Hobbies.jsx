@@ -6,26 +6,16 @@ import "../assets/Styles/Hobbies.css";
 
 function Hobbies() {
     return ( 
-           <>
+        <div className="contenedor">
+            <div>
            <h1>HOBBIES</h1>
-        <div className="hobbies">
-            <div className="programar">
-            <img src={programacion} alt="" />
-            <h2>Programar</h2>
-            {data.hobbies.info[0].programar} 
-            </div>
-            <div className="ejercicio">
-            <img src={ejercicio} alt="" />
-            <h2>Ejercicio</h2>
-            {data.hobbies.info[1].ejercicio} 
-            </div>
-            <div className="videojuegos">
-            <img src={videogames} alt="" />
-            <h2>Videojuegos</h2>
-            {data.hobbies.info[2].videojuegos}
-            </div>
+        <div className="texto">
+                <div className="programing"> <img src={programacion} alt="" className="programacion"/>  <h2>PROGRAMAR</h2>      {data.hobbies.info[0].programar}</div>
+                <div className="exercise">   <img src={ejercicio} alt="" className="ejercicio"/>        <h2>EJERCICIO</h2>      {data.hobbies.info[1].ejercicio}</div>
+                <div className="videogames">  <img src={videogames} alt="" className="videojuegos"/>    <h2>VIDEOJUEGOS</h2>    {data.hobbies.info[2].videojuegos}</div>
         </div>
-        </> 
+            </div>
+        </div> 
      );
 }
 

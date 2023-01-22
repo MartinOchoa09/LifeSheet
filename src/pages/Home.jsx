@@ -3,19 +3,17 @@ import AcercaDeMi from "../components/AcercaDeMi.jsx";
 import MiDia from "../components/MiDia.jsx";
 import Hobbies from "../components/Hobbies.jsx";
 import Foter from "../components/Foter.jsx";
-import "../assets/Styles/Home.css";
+
 
 
 function Home() {
     return ( 
         <>
-        
         <Header />
         <AcercaDeMi />
         <MiDia />
         <Hobbies />
         <Foter />
-        
         </>
      );
 }
