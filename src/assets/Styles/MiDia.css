@@ -1,0 +1,39 @@
+.divmain h3{
+    width: 900px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: justify;
+   color: #000000;
+ }
+ 
+ .divmain{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 90%;
+    height: 60vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: justify;
+ }
+ 
+ .divmain h2{
+    width: 678px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #800E0E;
+ }
+ 
+ .mifoto2{
+    width: 600px;
+    height: 420px;
+    border-radius: 27px;
+    }
+ 

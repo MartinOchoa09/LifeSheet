@@ -1,0 +1,42 @@
+.acercaDeMi h2{
+   background-color: #fff;
+   padding: 25px;
+   margin: 20px;
+   width: 678px;
+   height: 42px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   text-align: center;
+   color: #800E0E;
+}
+
+.acercaDeMi{
+   padding: 25px;
+   margin: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 50vh;
+   font-family: 'Roboto';
+   font-style: normal;
+   text-align: justify;
+}
+
+.acercaDeMi h3{
+   width: 900px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: justify;
+   color: #000000;
+}
+
+.software{
+   width: 680px;
+   height: 400px;
+   border-radius: 75%;
+   }
